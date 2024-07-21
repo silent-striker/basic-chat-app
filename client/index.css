@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#send-container {
+    position: fixed;
+    width: 80%;
+    bottom: 0;
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+#message-input {
+    flex-grow: 1;
+}
